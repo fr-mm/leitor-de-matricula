@@ -1,0 +1,1 @@
+from src.infrastructure.adapters.tesseract_image_reader import TesseractImageReaderAdapter

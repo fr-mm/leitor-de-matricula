@@ -1,0 +1,2 @@
+from src.infrastructure.exceptions.infrastructure_exception import InfrastructureException
+from src.infrastructure.exceptions.tesseract_executable_path_not_found_exception import TesseractExecutablePathNotFoundException

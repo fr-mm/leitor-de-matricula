@@ -1,1 +1,1 @@
-from tests.fixtures.paths import example_image_raw_path, image_with_wrong_suffix
+from tests.fixtures.paths import example_image_raw_path, image_with_wrong_suffix_raw_path, simple_image_example_raw_path

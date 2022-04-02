@@ -3,7 +3,7 @@ from unittest import TestCase
 from src.domain.exceptions import FileNotFoundException
 from src.domain.exceptions.invalid_file_suffix_exception import InvalidFileSuffixException
 from src.domain.value_objects import ImagePath
-from tests.fixtures import example_image_raw_path, image_with_wrong_suffix
+from tests.fixtures import example_image_raw_path, image_with_wrong_suffix_raw_path
 
 
 class TestFilePath(TestCase):
@@ -18,4 +18,4 @@ class TestFilePath(TestCase):
 
     def test_init_WHEN_invalid_suffix_THEN_raises_invalid_file_suffix_exception(self) -> None:
         with self.assertRaises(InvalidFileSuffixException):
-            ImagePath(image_with_wrong_suffix)
+            ImagePath(image_with_wrong_suffix_raw_path)
